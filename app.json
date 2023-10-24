@@ -2,7 +2,7 @@
     "name": "Skyzo Music",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/ridho17-ind/SkyzoMusicBot",
+    "repository": "https://github.com/Asaaq-ali/MusicBot",
     "stack": "container",
     "env": {
          "SESSION_NAME": {
@@ -27,17 +27,17 @@
          "LOG_GROUP_ID": {
             "description": "create a private group and get the group id, add your bot as admin to the group too",
             "required": true,
-            "value": "Isi Id Log Group Lu Dan Pastikan Bot Dan Asisten Jadi Admin Di Grup Log Lu"
+            "value": ""
          },
          "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": "Isi Pakai Api Id Lu"
+            "value": ""
          },
          "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": true,
-            "value": "Isi Pakai Api Hash Lu"
+            "value": ""
          },
         "HEROKU_API_KEY": {
             "description": "Your Heroku account's API key",
@@ -52,7 +52,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "Isi Id Lu Juga Sebagai Sudo User"
+            "value": ""
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
@@ -62,16 +62,16 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": "Isi Pakai Bot Token"
+            "value": ""
         },
         "MONGO_DB_URI": {
             "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
             "required": false,
-            "value": "Isi Pakai Mongo Lu"
+            "value": ""
         },
         "UPSTREAM_REPO": {
             "description": "If you dont know this, Leave as it is",
-            "value": "https://github.com/ridho17-ind/SkyzoMusicBot",
+            "value": "https://github.com/Asaaq-ali/MusicBot",
             "required": true
         },
         "UPSTREAM_BRANCH": {
@@ -82,12 +82,12 @@
         "CHANNEL": {
             "description": "Fill in using your channel username without @",
             "required": true,
-            "value": "SadRoomsInfo"
+            "value": ""
         },
         "GROUP": {
             "description": "Fill in using your channel username without the @",
             "required": true,
-            "value": "FlicksRobotSupport"
+            "value": ""
         }
     },
     "buildpacks": [
