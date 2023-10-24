@@ -12,7 +12,7 @@
          "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "Isi Id Lu"
+            "value": "6218149232"
          },
          "BOT_IMG": {
             "description": "Photo for your bot",
@@ -22,22 +22,22 @@
          "ASS_ID": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": "Isi Id Asisten Lu"
+            "value": "6218149232"
          },
          "LOG_GROUP_ID": {
             "description": "create a private group and get the group id, add your bot as admin to the group too",
             "required": true,
-            "value": ""
+            "value": "-1001936852140"
          },
          "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": ""
+            "value": "23308690"
          },
          "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": true,
-            "value": ""
+            "value": "0a64b7fb353afea42c8847bd5ae5c744"
          },
         "HEROKU_API_KEY": {
             "description": "Your Heroku account's API key",
@@ -52,7 +52,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": ""
+            "value": "6218149232"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
@@ -67,7 +67,7 @@
         "MONGO_DB_URI": {
             "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
             "required": false,
-            "value": ""
+            "value": "mongodb+srv://Sarkar123:GAUTAMMISHRA@sarkar.1uiwqkd.mongodb.net/?retryWrites=true&w=majority"
         },
         "UPSTREAM_REPO": {
             "description": "If you dont know this, Leave as it is",
@@ -82,12 +82,12 @@
         "CHANNEL": {
             "description": "Fill in using your channel username without @",
             "required": true,
-            "value": ""
+            "value": "Mlze1bot"
         },
         "GROUP": {
             "description": "Fill in using your channel username without the @",
             "required": true,
-            "value": ""
+            "value": "cvbdhdjdbdjdj"
         }
     },
     "buildpacks": [
